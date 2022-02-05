@@ -1,3 +1,5 @@
+pip install requests
+pip install bs4
 import requests
 from bs4 import BeautifulSoup
 def main():
