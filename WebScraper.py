@@ -12,7 +12,7 @@ def main():
 
     for headings in H2:
 
-        page_headings = print(headings.get_text())
+        page_headings = print(headings.get_text(strip=True))
 
 if __name__ == "__main__":
     main()
