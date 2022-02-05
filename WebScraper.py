@@ -1,5 +1,6 @@
-pip install requests
-pip install bs4
+# pip install requests
+# pip install bs4
+# The two commands listed above installs the dependencies needed for this program to run. 
 import requests
 from bs4 import BeautifulSoup
 def main():
